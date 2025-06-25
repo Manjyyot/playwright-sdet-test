@@ -22,6 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
 /test-results/
 /playwright-report/
 /blob-report/
@@ -29,3 +30,8 @@ dist-ssr
 
 .env
 *.env
+
+# Additional ignores
+*.tsbuildinfo
+package-lock.json
+yarn.lock
